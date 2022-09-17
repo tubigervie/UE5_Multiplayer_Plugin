@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystem.Build.cs",
+		"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem.Target.cs",
+		"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystemEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.2"
+}

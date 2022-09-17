@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MenuSystem Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Test",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Test",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Test",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystem HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystem HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystem",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystemEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystemEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MenuSystemEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		},
+		{
+			"label": "MenuSystemEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MenuSystemEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\MenuSystem.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.0"
+			}
+		}
+	]
+}

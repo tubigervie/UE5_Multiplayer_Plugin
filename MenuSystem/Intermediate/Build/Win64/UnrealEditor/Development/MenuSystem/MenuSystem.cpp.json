@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\ervie\\documents\\unreal projects\\mptest\\ue5_multiplayer_plugin\\menusystem\\source\\menusystem\\menusystem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ervie\\documents\\unreal projects\\mptest\\ue5_multiplayer_plugin\\menusystem\\intermediate\\build\\win64\\menusystemeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\ervie\\documents\\unreal projects\\mptest\\ue5_multiplayer_plugin\\menusystem\\intermediate\\build\\win64\\unrealeditor\\development\\menusystem\\definitions.menusystem.h",
+            "c:\\users\\ervie\\documents\\unreal projects\\mptest\\ue5_multiplayer_plugin\\menusystem\\source\\menusystem\\menusystem.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

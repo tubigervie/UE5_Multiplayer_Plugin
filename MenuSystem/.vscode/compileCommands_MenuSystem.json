@@ -1,0 +1,37 @@
+[
+	{
+		"file": "C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystem.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\.vscode\\compileCommands_MenuSystem\\MenuSystem.213.rsp\"",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystem.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\.vscode\\compileCommands_MenuSystem\\MenuSystem.213.rsp\"",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystem.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\.vscode\\compileCommands_MenuSystem\\MenuSystem.213.rsp\"",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystemCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\.vscode\\compileCommands_MenuSystem\\MenuSystem.213.rsp\"",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystemCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\.vscode\\compileCommands_MenuSystem\\MenuSystem.213.rsp\"",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystemGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\.vscode\\compileCommands_MenuSystem\\MenuSystem.213.rsp\"",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\Source\\MenuSystem\\MenuSystemGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\ervie\\Documents\\Unreal Projects\\MPTest\\UE5_Multiplayer_Plugin\\MenuSystem\\.vscode\\compileCommands_MenuSystem\\MenuSystem.213.rsp\"",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	}
+]
